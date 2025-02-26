@@ -1,10 +1,10 @@
-package com.example.demo.Models;
-public class Perfil {
+package com.example.demo.Entities;
+public class Usuario {
     private String name;
     private String last_name;
     private String email;
 
-    public Perfil(String name, String last_name, String email){
+    public Usuario(String name, String last_name, String email){
 
         this.name = name;
         this.last_name = last_name;
